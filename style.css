@@ -16,7 +16,7 @@
     --button-bg: #7c0902;      /* Blue button */
     --button-text: #ffffff;    /* White button text */
     --border-color: #cccccc;   /* Light gray border */
-    --accent-color: #fe6f5e;
+    --accent-color: #728b78;
     --light-gray: #333333;
     --card-bg:#ffe0dc9e;
     --shadow-color: rgba(0, 0, 0, 0.5); 
@@ -105,7 +105,7 @@ section {
     font-weight: 500;
 }
 .main h2 span {
-    color: #728b78;
+    color: var(--accent-color);
     font-size: 3em;
     font-weight: 600;
 }
@@ -120,7 +120,7 @@ section {
 }
 .main-btn {
     color: #fff;
-    background-color: #728b78;
+    background-color: var(--accent-color);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -146,7 +146,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #41764e;
+    color: var(--accent-color);
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
